@@ -1,0 +1,62 @@
+Business Terms,Column_header,Table
+Nation key,N_NATIONKEY,NATION
+Nation name,N_NAME,NATION
+Region key,N_REGIONKEY,NATION
+Comment,N_COMMENT,NATION
+Region key,R_REGIONKEY,REGION
+Region name,R_NAME,REGION
+Comment,R_COMMENT,REGION
+Part key,P_PARTKEY,PART
+Part name,P_NAME,PART
+Part mfgr,P_MFGR,PART
+Part brand,P_BRAND,PART
+Part type,P_TYPE,PART
+Part size,P_SIZE,PART
+Part container,P_CONTAINER,PART
+Part retailprice,P_RETAILPRICE,PART
+Comment,P_COMMENT,PART
+Supplier key,S_SUPPKEY,SUPPLIER
+Supplier name,S_NAME,SUPPLIER
+Supplier address,S_ADDRESS,SUPPLIER
+Nation key,S_NATIONKEY,SUPPLIER
+Supplier phone,S_PHONE,SUPPLIER
+Supplier account balance,S_ACCTBAL,SUPPLIER
+Comment,S_COMMENT,SUPPLIER
+Part key,PS_PARTKEY,PARTSUPP
+Supplier key,PS_SUPPKEY,PARTSUPP
+Supplier available Quantity,PS_AVAILQTY,PARTSUPP
+Supplier part cost,PS_SUPPLYCOST,PARTSUPP
+Comment,PS_COMMENT,PARTSUPP
+Customer key,C_CUSTKEY,CUSTOMER
+Customer name,C_NAME,CUSTOMER
+Customer addresss,C_ADDRESS,CUSTOMER
+Nation key,C_NATIONKEY,CUSTOMER
+Customer phone,C_PHONE,CUSTOMER
+Customer account balance,C_ACCTBAL,CUSTOMER
+Customer market segment,C_MKTSEGMENT,CUSTOMER
+Comment,C_COMMENT,CUSTOMER
+Order key,O_ORDERKEY,ORDER
+Customer key,O_CUSTKEY,ORDER
+Order status,O_ORDERSTATUS,ORDER
+Order total price,O_TOTALPRICE,ORDER
+Order date,O_ORDERDATE,ORDER
+Order priority,O_ORDERPRIORITY,ORDER
+Order clerk,O_CLERK,ORDER
+Order ship priority,O_SHIPPRIORITY,ORDER
+Comment,O_COMMENT,ORDER
+Order key,L_ORDERKEY,LINEITEM
+Part key,L_PARTKEY,LINEITEM
+Supplier key,L_SUPPKEY,LINEITEM
+Linenumber,L_LINENUMBER,LINEITEM
+Linenumber quantity,L_QUANTITY,LINEITEM
+Linenumber extended price,L_EXTENDEDPRICE,LINEITEM
+Linenumber discount,L_DISCOUNT,LINEITEM
+Lininumber tax,L_TAX,LINEITEM
+Linenumber return flag,L_RETURNFLAG,LINEITEM
+Linenumber status,L_LINESTATUS,LINEITEM
+Linenumber ship date,L_SHIPDATE,LINEITEM
+Linenumber commit date,L_COMMITDATE,LINEITEM
+Linenumber receipt date,L_RECEIPTDATE,LINEITEM
+Linenumber ship instruction,L_SHIPINSTRUCT,LINEITEM
+Linenumber ship mode,L_SHIPMODE,LINEITEM
+Comment,L_COMMENT,LINEITEM
